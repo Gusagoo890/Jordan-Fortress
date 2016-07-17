@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{7B65ADF1-C379-6BDC-4395-EC4DD15769A5}") = "Jordan Fortress", "Assembly-CSharp.csproj", "{FFFBD84F-44C7-E228-28E3-8EC7CF0D6066}"
+EndProject
+Project("{7B65ADF1-C379-6BDC-4395-EC4DD15769A5}") = "Jordan Fortress", "Assembly-CSharp-Editor.csproj", "{9363F03E-E2AF-F711-FC8B-990A5245D235}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFFBD84F-44C7-E228-28E3-8EC7CF0D6066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFFBD84F-44C7-E228-28E3-8EC7CF0D6066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFFBD84F-44C7-E228-28E3-8EC7CF0D6066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFFBD84F-44C7-E228-28E3-8EC7CF0D6066}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9363F03E-E2AF-F711-FC8B-990A5245D235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9363F03E-E2AF-F711-FC8B-990A5245D235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9363F03E-E2AF-F711-FC8B-990A5245D235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9363F03E-E2AF-F711-FC8B-990A5245D235}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
