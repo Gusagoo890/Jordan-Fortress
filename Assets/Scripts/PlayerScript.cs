@@ -17,6 +17,12 @@ public class PlayerScript : MonoBehaviour {
 			transform.position += new Vector3 (speed * Time.deltaTime, 0.0f, 0.0f);
 		if (Input.GetKey (KeyCode.A)) 
 			transform.position -= new Vector3 (speed * Time.deltaTime, 0.0f, 0.0f);
+		if (Input.GetKey (KeyCode.W)) 
+			transform.position += new Vector3 (0.0f, speed * Time.deltaTime, 0.0f);
+		if (Input.GetKey (KeyCode.S)) 
+			transform.position -= new Vector3 (0.0f, speed * Time.deltaTime, 0.0f);
+
+
 		if (Input.GetKeyDown (KeyCode.LeftShift))
 			speed = runSpeed;
 		if (Input.GetKeyUp (KeyCode.LeftShift))
