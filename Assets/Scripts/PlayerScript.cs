@@ -4,6 +4,7 @@ using System.Collections;
 public class PlayerScript : MonoBehaviour {
 	public float speed = 3f;
 	public float runSpeed = 6f;
+	public bool shiftIn = false;
 	// Use this for initialization
 	void Start () {
 	
@@ -25,8 +26,18 @@ public class PlayerScript : MonoBehaviour {
 
 		if (Input.GetKeyDown (KeyCode.LeftShift))
 			speed = runSpeed;
+			shiftIn = true;
 		if (Input.GetKeyUp (KeyCode.LeftShift))
 			speed = 3f; 
+			shiftIn = false;
+		
 	
+
+
 	}
+
+
+	//flips the object
+
 }
+
